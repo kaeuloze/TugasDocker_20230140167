@@ -1,8 +1,9 @@
 Tampilan saya:
-<img width="1919" height="1003" alt="Screenshot 2026-04-15 113112" src="https://github.com/user-attachments/assets/ef5438bb-bb66-4f67-b478-38829b1b0aa4" />
-<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/342a4d6c-b081-44f2-9a13-ed70a82c5c66" />
-<img width="1916" height="1013" alt="Screenshot 2026-04-15 113832" src="https://github.com/user-attachments/assets/801d9bc7-bc4f-40df-a553-9f4f36210877" />
-<img width="1919" height="1015" alt="Screenshot 2026-04-15 113814" src="https://github.com/user-attachments/assets/7624648c-6248-4aea-80ae-ae40ae0480a1" />
+<img width="1919" height="972" alt="Screenshot 2026-04-15 125018" src="https://github.com/user-attachments/assets/690c2867-8798-4ee5-8beb-7486924465f8" />
+<img width="1919" height="962" alt="Screenshot 2026-04-15 125036" src="https://github.com/user-attachments/assets/8d400e6c-13ad-47e7-b5b2-367a73975726" />
+<img width="1919" height="966" alt="Screenshot 2026-04-15 125050" src="https://github.com/user-attachments/assets/b43ba812-2377-42e5-8675-a6523d3cb1c9" />
+<img width="1919" height="960" alt="Screenshot 2026-04-15 125059" src="https://github.com/user-attachments/assets/8633eb72-b110-4adc-a39d-d9ad3f818809" />
+
 
 Tampilan Teman:
 <img width="1919" height="1018" alt="Screenshot 2026-04-15 112959" src="https://github.com/user-attachments/assets/c33cedfc-d790-4500-ada9-65e3cc7fbc56" />
