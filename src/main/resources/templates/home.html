@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h2>Home</h2>
+
+<a href="/form">Input Data</a>
+
+<hr>
+
+<div th:if="${data != null}">
+    <h3>Data Tersimpan:</h3>
+    <p>Nama: <span th:text="${data.nama}"></span></p>
+    <p>NIM: <span th:text="${data.nim}"></span></p>
+</div>
+
+<div th:if="${data == null}">
+    <p>Belum ada data</p>
+</div>
+
+<p>Mahagama - 2024</p>
+
+</body>
+</html>
