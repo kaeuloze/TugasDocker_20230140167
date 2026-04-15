@@ -5,10 +5,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Controller
 public class UserController {
 
-    private User dataUser; // temporary (tidak pakai database)
+
+    private List<User> dataList = new ArrayList<>();
 
     // ================= LOGIN =================
     @GetMapping("/")
@@ -22,8 +26,7 @@ public class UserController {
             @RequestParam String password,
             Model model) {
 
-        // GANTI PASSWORD DENGAN NIM KAMU
-        if (username.equals("admin") && password.equals("123456")) {
+        if (username.equals("admin") && password.equals("20230140167")) {
             return "redirect:/home";
         } else {
             model.addAttribute("error", "Login gagal!");
@@ -34,7 +37,7 @@ public class UserController {
     // ================= HOME =================
     @GetMapping("/home")
     public String home(Model model) {
-        model.addAttribute("data", dataUser);
+        model.addAttribute("dataList", dataList);
         return "home";
     }
 
@@ -47,7 +50,7 @@ public class UserController {
 
     @PostMapping("/form")
     public String submit(@ModelAttribute User user) {
-        this.dataUser = user;
+        dataList.add(user);
         return "redirect:/home";
     }
 }
